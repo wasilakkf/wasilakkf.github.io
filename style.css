@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font: 1.6rem 'Lucida Console', 'Monaco', monospace;
+  background-color: #1c2225;
+  color: #ccd3df;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
