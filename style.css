@@ -16,6 +16,63 @@ body {
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.code {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+    .code {
+      font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .code {
+    font-size: 1.8rem;
+  }
+}
+
+.line {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.line__number {
+  color: #858585;
+  margin-right: 10px;
+}
+
+.indent::before {
+  content: '  ';
+  display: inline;
+  white-space: pre;
+}
+
+.link {
+  color: #ff8a48;
+}
+
+.color-yellow {
+  color: #ffc74c;
+}
+
+.color-blue {
+  color: #3295d3;
+}
+
+.color-green {
+  color: #8cc98f;
+}
+
+.color-purple {
+  color: #ce90c8;
+}
+
+.color-cyan {
+  color: #39b5b4;
 }
